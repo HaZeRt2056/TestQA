@@ -1,1 +1,3 @@
-print("hello world")
+ygprint("hello world")
+
+ghbdtn rfr ns
