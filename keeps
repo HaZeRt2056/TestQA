@@ -1,0 +1,10 @@
+python -m pytest testexamples.py -k "test_check_math"
+
+- ожидаемый результат
++ актуальный результат
+
+
+
+assert response.status_code == 200, 'Wrong response code'  - текст если проверка не выполнится
+    #Проверяется, что статус-код ответа равен 200 (что означает успешный запрос).
+    Если это не так, будет выдана ошибка с текстом 'Wrong response code'.
